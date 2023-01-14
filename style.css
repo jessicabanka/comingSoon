@@ -113,7 +113,7 @@ a {
 }
 .background {
   position: absolute;
-  height: 90vh;
+  height: 150vh;
   top: 0;
   bottom: 0;
   left: 0;
@@ -153,8 +153,8 @@ a {
   }
 }
 .background {
-  position: absolute;
-  height: 100vh;
+  position:absolute;
+  height: 200vh;
   top: 0;
   bottom: 0;
   left: 0;
