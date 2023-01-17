@@ -8,7 +8,7 @@ body {
   font-family: "ROBOTO", sans-serif;
 }
 
-.nav,
+.nav1,
 .slider {
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@ body {
   padding: 0 2em;
 }
 
-.nav h1,
+.nav1 h1,
 .slider h1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 7vw;
@@ -63,7 +63,7 @@ a {
   text-decoration: none;
 }
 
-.nav-container {
+.nav1-container {
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -76,17 +76,17 @@ a {
   transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.nav-container--top-first {
+.nav1-container--top-first {
   position: fixed;
   top: 75px;
   transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.nav-container--top-second {
+.nav1-container--top-second {
   position: fixed;
   top: 0;
 }
-.nav-tab {
+.nav1-tab {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,13 +97,13 @@ a {
   font-size: 2vw;
 }
 
-.nav-tab:hover {
+.nav1-tab:hover {
   color: #1e1f26;
   background: #03dac6;
   transition: all 0.5s ease;
 }
 
-.nav-tab-slider {
+.nav1-tab-slider {
   position: absolute;
   bottom: 0;
   width: 0;
@@ -121,34 +121,34 @@ a {
   z-index: auto;
 }
 @media (min-width: 800px) {
-  .nav h1,
+  .nav1 h1,
   .slider h1 {
     font-size: 5vw;
   }
 
-  .nav h2,
+  .nav1 h2,
   .slider h2 {
     font-size: 3vw;
   }
 
-  .nav-tab {
+  .nav1-tab {
     font-size: 3vw;
   }
 }
 
 @media screen only (min-width: 360px) {
-  .nav h1,
+  .nav1 h1,
   .slider h1 {
     font-size: 8vw;
   }
 
-  .nav h2,
+  .nav1 h2,
   .slider h2 {
     font-size: 2vw;
     letter-spacing: 0.2vw;
   }
 
-  .nav-tab {
+  .nav1-tab {
     font-size: 1.2vw;
   }
 }
